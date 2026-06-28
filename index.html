@@ -4,19 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="Семейный чат с фото и сообщениями">
-  <meta name="theme-color" content="#007aff">
+  <meta name="theme-color" content="#ff9f43">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   
   <!-- Иконка для iOS -->
-  <link rel="apple-touch-icon" href="https://i.imgur.com/7JZjK6L.png">
+  <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIgZmlsbD0iI2ZmOWY0MyIvPjxwYXRoIGQ9Ik0yNTYgMTI4TTE2MCAyNTZoMTkyTDE2MCAzODR2LTU2aDMydjU2aDE2MHYtNTZoMzJ2NTZMMjU2IDEyOHptLTU2IDExMmg2NFYyMjRoNjRWMTY4aC02NFYxMDhoLTY0djY0aC02NFYyMjRoNjR2NjR6bTAgMTkyaDY0djY0aDMydi05NmgtNjR2MzJ6bTE2MCAwSDMwNnY5Nmg2NHYtNjRoMzJ2NjR6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTI1NiAyOTZsMjQtMjRoLTQ4bDI0IDI0eiIgZmlsbD0iI2ZmNjY2NiIvPjwvc3ZnPg==">
   <link rel="manifest" href="manifest.json">
-
-  <!-- Заголовок для PWA -->
+  <link rel="mask-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIgZmlsbD0iI2ZmOWY0MyIvPjxwYXRoIGQ9Ik0yNTYgMTI4TTE2MCAyNTZoMTkyTDE2MCAzODR2LTU2aDMydjU2aDE2MHYtNTZoMzJ2NTZMMjU2IDEyOHptLTU2IDExMmg2NFYyMjRoNjRWMTY4aC02NFYxMDhoLTY0djY0aC02NFYyMjRoNjR2NjR6bTAgMTkyaDY0djY0aDMydi05NmgtNjR2MzJ6bTE2MCAwSDMwNnY5Nmg2NHYtNjRoMzJ2NjR6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTI1NiAyOTZsMjQtMjRoLTQ4bDI0IDI0eiIgZmlsbD0iI2ZmNjY2NiIvPjwvc3ZnPg==" color="#ff9f43">
+  
   <title>Семейный чат</title>
-
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Контакты -->
+  <!-- Контент — оставь как есть -->
   <div id="contacts-view" class="view active">
     <header>
       <h1>Семейный чат</h1>
@@ -25,7 +26,6 @@
     <div id="contacts-list" class="contact-list"></div>
   </div>
 
-  <!-- Чат -->
   <div id="chat-view" class="view">
     <header>
       <button id="back-btn" class="btn-icon">←</button>
@@ -40,7 +40,6 @@
     </div>
   </div>
 
-  <!-- Модальное окно добавления контакта -->
   <div id="add-contact-modal" class="modal">
     <div class="modal-content">
       <h3>Добавить контакт</h3>
@@ -52,7 +51,6 @@
     </div>
   </div>
 
-  <!-- Lightbox для фото -->
   <div id="photo-lightbox" class="lightbox">
     <div class="lightbox-content">
       <span class="close-btn">&times;</span>

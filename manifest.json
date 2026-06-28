@@ -1,21 +1,22 @@
 {
   "name": "Семейный чат",
   "short_name": "Семейный",
+  "description": "Чат для семьи: сообщения и фото",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f5f5f7",
-  "theme_color": "#007aff",
+  "background_color": "#f9f5f0",
+  "theme_color": "#ff9f43",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://i.imgur.com/7JZjK6L.png",
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIgZmlsbD0iI2ZmOWY0MyIvPjxwYXRoIGQ9Ik0yNTYgMTI4TTE2MCAyNTZoMTkyTDE2MCAzODR2LTU2aDMydjU2aDE2MHYtNTZoMzJ2NTZMMjU2IDEyOHptLTU2IDExMmg2NFYyMjRoNjRWMTY4aC02NFYxMDhoLTY0djY0aC02NFYyMjRoNjR2NjR6bTAgMTkyaDY0djY0aDMydi05NmgtNjR2MzJ6bTE2MCAwSDMwNnY5Nmg2NHYtNjRoMzJ2NjR6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTI1NiAyOTZsMjQtMjRoLTQ4bDI0IDI0eiIgZmlsbD0iI2ZmNjY2NiIvPjwvc3ZnPg==",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/svg+xml"
     },
     {
-      "src": "https://i.imgur.com/7JZjK6L.png",
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIgZmlsbD0iI2ZmOWY0MyIvPjxwYXRoIGQ9Ik0yNTYgMTI4TTE2MCAyNTZoMTkyTDE2MCAzODR2LTU2aDMydjU2aDE2MHYtNTZoMzJ2NTZMMjU2IDEyOHptLTU2IDExMmg2NFYyMjRoNjRWMTY4aC02NFYxMDhoLTY0djY0aC02NFYyMjRoNjR2NjR6bTAgMTkyaDY0djY0aDMydi05NmgtNjR2MzJ6bTE2MCAwSDMwNnY5Nmg2NHYtNjRoMzJ2NjR6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTI1NiAyOTZsMjQtMjRoLTQ4bDI0IDI0eiIgZmlsbD0iI2ZmNjY2NiIvPjwvc3ZnPg==",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg+xml"
     }
   ]
 }
