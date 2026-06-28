@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Семейный чат</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Контакты -->
+  <div id="contacts-view" class="view active">
+    <header>
+      <h1>Семейный чат</h1>
+      <button id="add-contact-btn" class="btn-primary">➕ Добавить</button>
+    </header>
+    <div id="contacts-list" class="contact-list"></div>
+  </div>
+
+  <!-- Чат -->
+  <div id="chat-view" class="view">
+    <header>
+      <button id="back-btn" class="btn-icon">←</button>
+      <span id="chat-contact-name">Контакт</span>
+    </header>
+    <div id="messages-container" class="messages-container"></div>
+    <div class="input-area">
+      <!-- Скрытые input для фото и аудио -->
+      <input type="file" id="photo-input" accept="image/*" hidden>
+      <input type="file" id="audio-input" accept="audio/*" hidden>
+      
+      <!-- Кнопки для фото и голоса -->
+      <button id="add-photo-btn" class="btn-icon" title="Фото">📷</button>
+      <button id="record-voice-btn" class="btn-icon" title="Голосовое">🎙️</button>
+
+      <input type="text" id="message-input" placeholder="Сообщение (нажмите Enter)">
+      <button id="send-btn" class="btn-primary" disabled>➤</button>
+      <button id="geo-btn" class="btn-icon" title="Геометка">📍</button>
+    </div>
+  </div>
+
+  <!-- Модальное окно добавления контакта -->
+  <div id="add-contact-modal" class="modal">
+    <div class="modal-content">
+      <h3>Добавить контакт</h3>
+      <input type="text" id="contact-name" placeholder="Имя">
+      <div class="modal-actions">
+        <button id="add-contact-cancel" class="btn-secondary">Отмена</button>
+        <button id="add-contact-save" class="btn-primary">Сохранить</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox для фото -->
+  <div id="photo-lightbox" class="lightbox">
+    <div class="lightbox-content">
+      <span class="close-btn">&times;</span>
+      <img id="lightbox-img" src="" alt="Фото">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
