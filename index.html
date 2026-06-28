@@ -3,7 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Семейный чат с фото и сообщениями">
+  <meta name="theme-color" content="#007aff">
+  
+  <!-- Иконка для iOS -->
+  <link rel="apple-touch-icon" href="https://i.imgur.com/7JZjK6L.png">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Заголовок для PWA -->
   <title>Семейный чат</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,17 +33,10 @@
     </header>
     <div id="messages-container" class="messages-container"></div>
     <div class="input-area">
-      <!-- Скрытые input для фото и аудио -->
       <input type="file" id="photo-input" accept="image/*" hidden>
-      <input type="file" id="audio-input" accept="audio/*" hidden>
-      
-      <!-- Кнопки для фото и голоса -->
       <button id="add-photo-btn" class="btn-icon" title="Фото">📷</button>
-      <button id="record-voice-btn" class="btn-icon" title="Голосовое">🎙️</button>
-
       <input type="text" id="message-input" placeholder="Сообщение (нажмите Enter)">
       <button id="send-btn" class="btn-primary" disabled>➤</button>
-      <button id="geo-btn" class="btn-icon" title="Геометка">📍</button>
     </div>
   </div>
 

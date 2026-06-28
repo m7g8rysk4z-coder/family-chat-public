@@ -1,0 +1,21 @@
+{
+  "name": "Семейный чат",
+  "short_name": "Семейный",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#007aff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/7JZjK6L.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.imgur.com/7JZjK6L.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
