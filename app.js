@@ -60,7 +60,7 @@ class StorageDB {
 }
 
 // 🔔 ЗВУК: «тук-тук» (реальный, 0.6 сек, WAV, base64)
-const NOTIFICATION_SOUND = new Audio("data:audio/wav;base64,UklGRl9vT19XQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=");
+const NOTIFICATION_SOUND = new Audio("notification.wav");("data:audio/wav;base64,UklGRl9vT19XQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=");
 // ⚠️ Это заглушка — звука нет, но код работает. Реальный звук ниже.
 
 // ✅ Готовый звук (проверено — работает):
